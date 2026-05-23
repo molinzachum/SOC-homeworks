@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+header {
+    background-color: #4a90d9;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 0 0 20px 20px;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 28px;
+}
+
+header p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+.img-rounded {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.img-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.img-oval {
+    width: 250px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #4a90d9;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.form-wrap {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.required {
+    color: red;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+.btn-group {
+    margin-top: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #4a90d9;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+input[type="reset"] {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+.inline-group {
+    display: flex;
+    gap: 15px;
+}
+
+.inline-group label {
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

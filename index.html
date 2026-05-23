@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Practice Webpage</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Student Practice Webpage</h1>
+        <p>HTML + CSS Practice (Forms + Table Advanced)</p>
+    </header>
+
+
+    <div class="section">
+        <h2>Image Section</h2>
+        <img class="img-rounded" src="images/angkorwat.png" alt="Nature">
+    </div>
+
+    <div class="section">
+        <h2>Image Circle</h2>
+        <img class="img-circle" src="images/angkorwat.png" alt="Nature Circle">
+    </div>
+
+    <div class="section">
+        <h2>Image Oval</h2>
+        <img class="img-oval" src="images/angkorwat.png" alt="Nature Oval">
+    </div>
+
+
+    <div class="section">
+        <h2>Advanced Table</h2>
+        <table>
+            <tr>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Scores</th>
+                <th rowspan="2">Grade</th>
+            </tr>
+            <tr>
+                <th>Math</th>
+                <th>CS</th>
+            </tr>
+            <tr>
+                <td>Liz</td>
+                <td>90</td>
+                <td>95</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Aeri</td>
+                <td>80</td>
+                <td>85</td>
+                <td>B</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <div class="form-wrap">
+            <h2>Form 1: Basic Info</h2>
+            <form>
+                <label>Name <span class="required">*</span></label>
+                <input type="text" placeholder="Enter your name">
+
+                <label>Email <span class="required">*</span></label>
+                <input type="email" placeholder="Enter your email">
+
+                <label>Password <span class="required">*</span></label>
+                <input type="password" placeholder="Enter your password">
+
+                <label>Upload File</label>
+                <input type="file">
+
+                <br><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="form-wrap">
+            <h2>Form 2: Survey Form</h2>
+            <form>
+                <label>Choose Course <span class="required">*</span></label>
+                <select>
+                    <option value="">-- Select --</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JavaScript</option>
+                </select>
+
+                <label>Gender</label>
+                <div class="inline-group">
+                    <label><input type="radio" name="gender" value="Male"> Male</label>
+                    <label><input type="radio" name="gender" value="Female"> Female</label>
+                </div>
+
+                <label>Skills</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox"> HTML</label>
+                    <label><input type="checkbox"> CSS</label>
+                    <label><input type="checkbox"> JS</label>
+                </div>
+
+                <label>Phone <span class="required">*</span></label>
+                <input type="tel" placeholder="Enter your phone number">
+
+                <label>Message</label>
+                <textarea placeholder="Enter your message"></textarea>
+
+                <br><br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
