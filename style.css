@@ -28,30 +28,16 @@ header p {
     margin: 20px;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .section h2 {
     margin-top: 0;
 }
 
-.img-rounded {
+img {
     width: 300px;
     border-radius: 10px;
-}
-
-.img-circle {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.img-oval {
-    width: 250px;
-    height: 180px;
-    border-radius: 50%;
-    object-fit: cover;
 }
 
 table {
@@ -76,10 +62,6 @@ td {
     margin: 0 auto;
 }
 
-.form-group {
-    margin-bottom: 15px;
-}
-
 label {
     display: block;
     font-weight: bold;
@@ -98,6 +80,7 @@ select,
 textarea {
     width: 100%;
     padding: 8px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 6px;
     box-sizing: border-box;
@@ -105,10 +88,6 @@ textarea {
 
 textarea {
     height: 100px;
-}
-
-.btn-group {
-    margin-top: 10px;
 }
 
 input[type="submit"],
@@ -131,9 +110,23 @@ input[type="reset"] {
 .inline-group {
     display: flex;
     gap: 15px;
+    margin-bottom: 15px;
 }
 
 .inline-group label {
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.checkbox-group label {
     font-weight: normal;
     display: flex;
     align-items: center;
